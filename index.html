@@ -7,10 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Design</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="index.js">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
 </head>
 
 <body>
+
+    <!-- mobile version starts here -->
+
+    <nav class="nav-mobile">
+
+        <div class="mobile-logo">
+            <div class="mobile-logo-container">
+                <i class="fa-brands fa-airbnb"></i>
+            </div>
+            <span>Visual Design</span>
+        </div>
+
+        <div class="hamburger" onclick="dosomething ()">
+            <div class="dash"></div>
+        </div>
+
+        <div class="mobile-link-holder">
+            <ul>
+                <li><a href="#" class="mobile-active-link">Home</a></li>
+                <li><a href="#project"> Project</a></li>
+                <li><a href="#aboutus"> About</a></li>
+                <li><a href="#contactus"> Contact</a></li>
+            </ul>
+        </div>
+
+
+    </nav>
+    <!-- mobile version ends here -->
+
     <!-- Hero section starts here -->
     <section class="hero">
         <div class="menu">
@@ -18,20 +49,24 @@
                 <i class="fa-brands fa-airbnb"></i>
             </div>
             <div class="menu-content">
-                <span>HOME</span>
-                <span>PROJECT</span>
-                <span>ABOUT</span>
-                <span>CONTACT</span>
+                <ul>
+                    <li><a href="#" class="mobile-active-link">HOME</a></li>
+                    <li><a href="#project"> PROJECT</a></li>
+                    <li><a href="#aboutus"> ABOUT</a></li>
+                    <li><a href="#contactus"> CONTACT</a></li>
+                </ul>
             </div>
         </div>
-        <div class="hero-container">
+        <div class="hero-container" id="">
             <div class="hero-image">
                 <img src="./images/IMG_1785 (1).PNG" alt="">
             </div>
             <div class="hero-content">
                 <h4>Hello I'm Agetha</h4>
                 <h1>Visual Designer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit alidolorem fuga maiores<br> velit consequuntur culpa in error necessitatibus odit sapiente deleniti iste, soluta aut a<br> perferendis, id voluptatem cum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit alidolorem fuga maiores<br> velit
+                    consequuntur culpa in error necessitatibus odit sapiente deleniti iste, soluta aut a<br>
+                    perferendis, id voluptatem cum.</p>
                 <button class="button">ABOUT ME</button>
             </div>
         </div>
@@ -39,7 +74,7 @@
     <!-- Hero section ends here -->
 
     <!-- About section starts here -->
-    <section class="about">
+    <section class="about" id="aboutus">
         <div class="about-container">
             <div class="about-content">
                 <div class="icons"><i class="fa-solid fa-mobile-screen-button"></i></div>
@@ -54,7 +89,7 @@
                 <p>lorem ipsum is simply text of the<br> printing type</p>
                 <button class="about-button">KNOW MORE <i class="fa-solid fa-arrow-right"></i></button>
             </div>
-            
+
             <div class="about-content">
                 <div class="icons"><i class="fa-solid fa-ranking-star"></i></div>
                 <h2>Branding</h2>
@@ -62,14 +97,93 @@
                 <button class="about-button">KNOW MORE <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
-    </section>
 
-    <section class="card">
-        <div class="card-container">
-            <div class="card-content"></div>
+        <div class="Experience">
+            <div class="Experience-left-div">
+                <p>12</p>
+                <h3>Years Experience</h3>
+            </div>
+            <div class="Experience-right-div">
+                <div class="right-div-content">
+                    <span>60+</span>
+                    <p>Clients</p>
+                </div>
+                <div class="right-div-content">
+                    <span>08</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="right-div-content">
+                    <span>122+</span>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="right-div-content">
+                    <span>10</span>
+                    <p>Achievements</p>
+                </div>
+            </div>
+        </div>
+        <div class="aim">
+            <div class="left-aim">
+                <h3>FEATURED PROJECTS</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            </div>
+            <button class="button">VIEW ALL</button>
         </div>
     </section>
 
+    <!-- contact section starts -->
+
+    <section class="contact" id="contactus">
+        <div class="conact-container">
+            <div class="left-contact">
+                <h1>Let's work together on<br> your next project</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Deserunt enim aliquam impedit</p>
+            </div>
+            <div class="right-contact">
+                <button class="button">CONTACT</button>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="#" class="mobile-active-link">Home</a></li>
+                    <li><a href="#project"> Project</a></li>
+                    <li><a href="#aboutus"> About</a></li>
+                    <li><a href="#contactus"> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="icon">
+            <i class="fa-brands fa-airbnb"></i>
+        </div>
+        <div class="media">
+
+            <a href="https://www.linkedin.com/in/bukhari-abdulhakeem" target="_blank"><span class="icon-container">
+                    <i class="fa-brands fa-linkedin-in"></i></span></a>
+
+            <a href="https://github.com/Kingbah001" target="_blank"> <span class="icon-container"> <i
+                        class="fa-brands fa-github"></i></span>
+            </a>
+
+            <a href="https://twitter.com/KingBah81776080" target="_blank"><span class="icon-container"> <i
+                        class="fa-brands fa-twitter"></i></span></a>
+
+        </div>
+        <div class="created">
+            <i class="fa-solid fa-diamond"></i>
+            <p>Created By Bukhari Abdulhakeem</p>
+        </div>
+    </section>
+
+
+
+
+<script src="index.js"></script>
 </body>
 
 </html>
