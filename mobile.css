@@ -1,10 +1,71 @@
-@media screen and (max-width:1000px) {
+@media screen and (max-width:880px) {
     .nav-mobile{
         display: flex;
-        width: 100%;
-        min-width: 100%;
+        /* width: 100%; */
+        /* min-width: 100%; */
     }
     .menu{
+        display: none;
+    }
+    .hero-container{
+        display: block;
+        width: 100vw;
+    }
+    .hero-image{
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .hero-content{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero-content p{
+        text-align: left;
+    }
+    .hero-image img{
+        width: 90vw;
+        margin: 0 auto;
+        /* min-width: 70%; */
+    }
+    .about-container{
+        display: block;
+    }
+    .about-content{
+        margin-bottom: 10px;
+    }
+    .Experience{
+        display: block;
+    }
+    .Experience-left-div{
+        margin-bottom: 15px;
+        margin-left: 23%;
+    }
+    .aim{
+        display: block;
+        text-align: center;
+    }
+    .conact-container{
+        display: block;
+    }
+    .left-contact h1{
+        text-align: center;
+    }
+    .right-contact{
+        /* border: 3px solid yellow; */
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .created{
+        margin-left: 18%;
+        margin-top: 15px;
+    }
+    .footer .icon{
         display: none;
     }
     /* .mobile-link-holder{
